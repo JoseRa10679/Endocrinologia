@@ -1,0 +1,124 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--- GENERAL -->
+
+    <string name="app_name">Endocrinología</string>
+    <string name="AcercadeJosera" translatable="false"> \@JoseRa\nEnero 2021\nquistabenasque@gmail.com </string>
+    <string name="strAcerca_de">Acerca de…</string>
+    <string name="version">Versión</string>
+
+    <string name="calculos_nendocrinologia">CALCULOS\nENDOCRINOLOGIA</string>
+
+    <string name="_00">00</string>
+    <string name="_0_0">0.0</string>
+    <string name="_0_00">0.00</string>
+    <string name="_000">000</string>
+    <string name="_00_0">00.0</string>
+    <string name="_0000">0000</string>
+
+    <string name="calcular">Calcular</string>
+
+    <!--- FIN GENERAL  -->
+
+    <!-- METABOLISMO GLUCEMICO -->
+
+    <string name="resultado_AC1">Resultado AC1</string>
+    <string name="interpretacion_quicki">Interpretación QUICKI:\n\t\tLos valores oscilan entre 0,45 en individuos sanos y 0,30 en diabéticos.\n\t\tLos valores más bajos reflejan una mayor resistencia con valores por debajo de 0.339 que indican resistencia a la insulina.</string>
+    <string name="insulina_quicki">Insulina:</string>
+    <string name="glucosa_quicki">Glucosa:</string>
+    <string name="resultadoHoma">Resultado HOMA-IR</string>
+    <string name="resultadoQUICKI">Resultado QUICKI</string>
+
+    <string name="interpretacion_homa">Interpretación HOMA-IR:\n\tLos niveles de referencia normales van de 0.7 a 2.0.\n\tAlgunos estudios utilizan el corte de 2 como aumento de la resistencia a la Insulina.</string>
+
+    <!-- FIN METABOLISMO GLUCEMICO -->
+
+    <!-- TYG -->
+
+    <string name="referencias_tyg">\tDe acuerdo con un estudio de Salazar et al. el corte de resistencia a la insulina se sitúa en un índice TyG de 4.49, con una sensibilidad del 82.6% y una especificidad del 82.1%</string>
+    <string name="trigliceridos_tyg">Trigliceridos:</string>
+
+    <string name="glucosa_tyg">Glucosa:</string>
+    <string name="tyg">TYG</string>
+    <string name="resultado_tyg">Resultado TYG</string>
+
+    <!-- TYG -->
+
+    <!-- METABOLISMO DEL CALCIO -->
+
+    <string name="calcio_ref">Payne RB, Little AJ, Williams RB, Milner Jr.\nInterpretation of Serum Calcium in Patients with Abnormal Serum Proteins.\nBr Med J. 1973; 4(5893): 643–646.</string>
+    <string name="calcio_corregido">Calcio Corregido</string>
+    <string name="calcio_s_rico">Calcio sérico:</string>
+
+    <string name="alb_mina_s_rica">Albúmina sérica:</string>
+    <string name="resultado_c">Resultado Calcio</string>
+
+    <!-- METABOLISMO DEL CALCIO -->
+
+    
+    <!-- FAI -->
+
+    <string name="fai_ref" tools:ignore="StringFormatInvalid">\tLa testosterona en sangre se puede encontrar en tres formas: fuertemente unida a SHBG, débilmente unida a la albúmina y solo un pequeño
+        porcentaje (menor del 3% en hombres y del 0,7% en mujeres) libre.\n\tEsta tercera forma es la testosterona libre, la única forma capaz de unirse a los
+        receptores tisulares para ejercer sus efectos, de ahí que sea el mejor marcador del estado de los andrógenos.</string>
+
+    <string name="actividad_de_renina_plasm_tica">Actividad de Renina Plasmática:</string>
+    <string name="aldosterona">Aldosterona:</string>
+
+    <string name="resultado_h">Resultado HiperAld.</string>
+
+
+    <string name="composici_n">Composición:</string>
+
+    <string name="resultdo_n">Resultado NT</string>
+
+    <string name="testosterona_total">Testosterona Total:</string>
+    <string name="shbg">SHBG:</string>
+    <string name="fai">FAI</string>
+    <string name="resultado_fai">Resultado FAI</string>
+
+    <!-- FIN FAI -->
+
+    <!-- NODULOS TIROIDEOS -->
+
+    <string name="c_stico_o_casi_totalmente_c_stico_0">Cístico o casi totalmente cístico (0)</string>
+    <string name="espongiforme_0">Espongiforme (0)</string>
+    <string name="c_stico_y_s_lido_1">Cístico y sólido (1)</string>
+    <string name="s_lido_o_casi_completamente_s_lido_2">Sólido o casi completamente sólido (2)</string>
+    <string name="indeterminado_debido_a_calcificaci_n_2">Indeterminado debido a calcificación (2)</string>
+    <string name="ecogenicidad">Ecogenicidad:</string>
+    <string name="anec_ico_0">Anecóico (0)</string>
+    <string name="hiperec_ico_1">Hiperecóico (1)</string>
+    <string name="hipoec_ico_2">Hipoecóico (2)</string>
+    <string name="muy_hipoec_ico_3">Muy hipoecóico (3)</string>
+    <string name="indeterminado_1">Indeterminado (1)</string>
+    <string name="forma">Forma:</string>
+    <string name="m_s_ancho_que_alto_0">Más ancho que alto (0)</string>
+    <string name="m_s_alto_que_ancho_3">Más alto que ancho (3)</string>
+    <string name="margen">Margen:</string>
+    <string name="suave_0">Suave (0)</string>
+    <string name="mal_definido_0">Mal definido (0)</string>
+    <string name="lobulado_o_irregular_2">Lobulado o irregular (2)</string>
+    <string name="extensi_n_fuera_del_tiroides_3">Extensión fuera del tiroides (3)</string>
+    <string name="no_se_puede_determinar_0">No se puede determinar (0)</string>
+    <string name="foco_ecog_nico">Foco ecogénico:</string>
+    <string name="ninguno_o_artefactos_en_cola_de_cometa_0">Ninguno o artefactos en cola de cometa (0)</string>
+    <string name="macrocalcificaciones_1">Macrocalcificaciones (1)</string>
+    <string name="calcificaciones_perif_ricas_2">Calcificaciones periféricas (2)</string>
+    <string name="focos_de_punteado_ecog_nico_3">Focos de punteado ecogénico (3)</string>
+    <string name="limpiar">Limpiar</string>
+
+    <!-- FIN NODULOS TIROIDEOS -->
+
+    <!-- GRADIENTE TT DE K+ -->
+
+    <string name="potasio_en_plasma">Potasio en Plasma:</string>
+    <string name="potasio_en_orina">Potasio en Orina:</string>
+    <string name="osmolaridad_en_plasma">Osmolaridad en Plasma:</string>
+    <string name="osmolaridad_en_orina">Osmolaridad en Orina:</string>
+    <string name="resultado_g">Resultado Grad. TTK+</string>
+
+    <!-- FIN GRADIENTE TT DE K+ -->
+
+
+</resources>

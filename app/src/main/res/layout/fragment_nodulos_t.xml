@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="UselessParent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/composici_n"
+            android:textColor="@color/design_default_color_error"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView">
+
+            <RadioButton
+                android:id="@+id/rbtCistico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c_stico_o_casi_totalmente_c_stico_0" />
+
+            <RadioButton
+                android:id="@+id/rbtEspongiforme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/espongiforme_0" />
+
+            <RadioButton
+                android:id="@+id/rbtMixed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c_stico_y_s_lido_1" />
+
+            <RadioButton
+                android:id="@+id/rbtSolid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/s_lido_o_casi_completamente_s_lido_2" />
+
+            <RadioButton
+                android:id="@+id/rbtCacificacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/indeterminado_debido_a_calcificaci_n_2" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/ecogenicidad"
+            android:textColor="@color/design_default_color_error"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView1">
+
+            <RadioButton
+                android:id="@+id/rbtAnecoico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/anec_ico_0" />
+
+            <RadioButton
+                android:id="@+id/rbtHiperecoico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hiperec_ico_1" />
+
+            <RadioButton
+                android:id="@+id/rbtHipoecoico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hipoec_ico_2" />
+
+            <RadioButton
+                android:id="@+id/rbtMHipoecoico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/muy_hipoec_ico_3" />
+
+            <RadioButton
+                android:id="@+id/rbtEcoIndeterminado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/indeterminado_1" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/forma"
+            android:textColor="@color/design_default_color_error"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup3" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+            <RadioButton
+                android:id="@+id/rbtMasAncho"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/m_s_ancho_que_alto_0" />
+
+            <RadioButton
+                android:id="@+id/rbtMasAlto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/m_s_alto_que_ancho_3" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/margen"
+            android:textColor="@color/design_default_color_error"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup4" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+            <RadioButton
+                android:id="@+id/rbtMargenSuave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/suave_0" />
+
+            <RadioButton
+                android:id="@+id/rbtMalDef"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mal_definido_0" />
+
+            <RadioButton
+                android:id="@+id/rbtLobulado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lobulado_o_irregular_2" />
+
+            <RadioButton
+                android:id="@+id/rbtExtraT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/extensi_n_fuera_del_tiroides_3" />
+
+            <RadioButton
+                android:id="@+id/rbtIndeterminado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/no_se_puede_determinar_0" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textFocoEco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/foco_ecog_nico"
+            android:textColor="@color/design_default_color_error"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup6" />
+
+        <CheckBox
+            android:id="@+id/chkNinguno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/ninguno_o_artefactos_en_cola_de_cometa_0"
+            android:textAlignment="gravity"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textFocoEco" />
+
+        <CheckBox
+            android:id="@+id/chkMacroCalc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/macrocalcificaciones_1"
+            android:textAlignment="gravity"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chkNinguno" />
+
+        <CheckBox
+            android:id="@+id/chkCalcificaciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/calcificaciones_perif_ricas_2"
+            android:textAlignment="gravity"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chkMacroCalc" />
+
+        <CheckBox
+            android:id="@+id/chkPunteado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/focos_de_punteado_ecog_nico_3"
+            android:textAlignment="gravity"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chkCalcificaciones" />
+
+        <Button
+            android:id="@+id/buttonCalcular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/calcular"
+            app:layout_constraintEnd_toStartOf="@+id/buttonLimpiar"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chkPunteado" />
+
+        <Button
+            android:id="@+id/buttonLimpiar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/limpiar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/buttonCalcular"
+            app:layout_constraintTop_toBottomOf="@+id/chkPunteado" />
+
+        <TextView
+            android:id="@+id/textResultadoNodulos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="32dp"
+            android:gravity="center"
+            android:text="@string/resultdo_n"
+            android:textColor="@color/design_default_color_error"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonCalcular" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
